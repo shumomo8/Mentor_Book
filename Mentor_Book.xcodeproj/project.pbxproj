@@ -16,9 +16,9 @@
 		E9AFF841246E425F0085D940 /* Mentor_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFF840246E425F0085D940 /* Mentor_BookTests.swift */; };
 		E9AFF84C246E425F0085D940 /* Mentor_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFF84B246E425F0085D940 /* Mentor_BookUITests.swift */; };
 		E9AFF85A246E42810085D940 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFF859246E42810085D940 /* Mentor.swift */; };
-		E9AFF865246E53AF0085D940 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9AFF862246E53AF0085D940 /* ryo.jpg */; };
-		E9AFF866246E53AF0085D940 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9AFF863246E53AF0085D940 /* nagata.jpg */; };
-		E9AFF867246E53AF0085D940 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E9AFF864246E53AF0085D940 /* taithi.JPG */; };
+		E9AFF90C246E7AE80085D940 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9AFF909246E7AE80085D940 /* ryo.jpg */; };
+		E9AFF90D246E7AE80085D940 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9AFF90A246E7AE80085D940 /* nagata.jpg */; };
+		E9AFF90E246E7AE80085D940 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E9AFF90B246E7AE80085D940 /* taithi.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +54,9 @@
 		E9AFF84B246E425F0085D940 /* Mentor_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor_BookUITests.swift; sourceTree = "<group>"; };
 		E9AFF84D246E425F0085D940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9AFF859246E42810085D940 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
-		E9AFF862246E53AF0085D940 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
-		E9AFF863246E53AF0085D940 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
-		E9AFF864246E53AF0085D940 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		E9AFF909246E7AE80085D940 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		E9AFF90A246E7AE80085D940 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		E9AFF90B246E7AE80085D940 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 				E9AFF829246E425B0085D940 /* AppDelegate.swift */,
 				E9AFF82B246E425B0085D940 /* SceneDelegate.swift */,
 				E9AFF82D246E425B0085D940 /* ViewController.swift */,
+				E9AFF908246E7AE80085D940 /* images */,
 				E9AFF82F246E425B0085D940 /* Main.storyboard */,
-				E9AFF861246E53AF0085D940 /* images */,
 				E9AFF832246E425E0085D940 /* Assets.xcassets */,
 				E9AFF834246E425E0085D940 /* LaunchScreen.storyboard */,
 				E9AFF837246E425E0085D940 /* Info.plist */,
@@ -138,16 +138,15 @@
 			path = Mentor_BookUITests;
 			sourceTree = "<group>";
 		};
-		E9AFF861246E53AF0085D940 /* images */ = {
+		E9AFF908246E7AE80085D940 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				E9AFF862246E53AF0085D940 /* ryo.jpg */,
-				E9AFF863246E53AF0085D940 /* nagata.jpg */,
-				E9AFF864246E53AF0085D940 /* taithi.JPG */,
+				E9AFF909246E7AE80085D940 /* ryo.jpg */,
+				E9AFF90A246E7AE80085D940 /* nagata.jpg */,
+				E9AFF90B246E7AE80085D940 /* taithi.JPG */,
 			);
-			name = images;
-			path = ../../MentorBook/images;
-			sourceTree = "<group>";
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -253,9 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9AFF865246E53AF0085D940 /* ryo.jpg in Resources */,
-				E9AFF866246E53AF0085D940 /* nagata.jpg in Resources */,
-				E9AFF867246E53AF0085D940 /* taithi.JPG in Resources */,
+				E9AFF90C246E7AE80085D940 /* ryo.jpg in Resources */,
+				E9AFF90D246E7AE80085D940 /* nagata.jpg in Resources */,
+				E9AFF90E246E7AE80085D940 /* taithi.JPG in Resources */,
 				E9AFF836246E425E0085D940 /* LaunchScreen.storyboard in Resources */,
 				E9AFF833246E425E0085D940 /* Assets.xcassets in Resources */,
 				E9AFF831246E425B0085D940 /* Main.storyboard in Resources */,
